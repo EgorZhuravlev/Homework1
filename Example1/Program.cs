@@ -7,14 +7,12 @@
 int a = int.Parse(Console.ReadLine());
 int b = int.Parse(Console.ReadLine());
 
-int max = a;
-
 if (a > b)
 {
-    Console.WriteLine(max = a);
+    Console.WriteLine("max = {0}", a);
 }
 
 else 
 {
-    Console.WriteLine(max = b);
+    Console.WriteLine("max = {0}", b);
 }
